@@ -10,6 +10,8 @@ export interface IMeme {
   italic: boolean
   imageId: number
   color: string
+  frameSizeX: number
+  frameSizeY: number
 }
 export const DummyMeme: IMeme = {
   titre: '',
@@ -21,7 +23,9 @@ export const DummyMeme: IMeme = {
   underline: false,
   italic: false,
   imageId: 0,
-  color: '#000000'
+  color: '#000000',
+  frameSizeX: 0,
+  frameSizeY: 0
 }
 export interface IImage {
   id: number
