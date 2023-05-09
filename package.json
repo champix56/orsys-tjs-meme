@@ -4,6 +4,7 @@
   "description": "meme components for react tjs",
   "author": "champix56",
   "license": "MIT",
+  "private":"false",
   "repository": "champix56/orsys-tjs-meme",
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
